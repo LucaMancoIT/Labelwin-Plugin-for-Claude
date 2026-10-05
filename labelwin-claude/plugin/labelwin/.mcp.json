@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "labelwin-db": {
+      "command": "python",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server/labelwin_db_server.py"
+      ]
+    }
+  }
+}

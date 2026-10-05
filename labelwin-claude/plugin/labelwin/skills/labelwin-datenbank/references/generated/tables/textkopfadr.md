@@ -1,0 +1,18 @@
+# textkopfadr
+
+PK: lfdnr
+
+| Spalte | Typ | Null | Beschreibung |
+|---|---|---|---|
+| lfdnr | int | NO |  |
+| textzaehler | int | NO |  |
+| adzeile1 | nvarchar(60) | YES |  |
+| adzeile2 | nvarchar(60) | YES |  |
+| adzeile3 | nvarchar(60) | YES |  |
+| adzeile4 | nvarchar(60) | YES |  |
+| adzeile5 | nvarchar(60) | YES |  |
+| adzeile6 | nvarchar(60) | YES |  |
+| adzeile7 | nvarchar(60) | YES |  |
+| objadr | ntext(1073741823) | YES |  |
+| zeitstempel | timestamp | NO |  |
+| adblock | ntext(1073741823) | YES |  |

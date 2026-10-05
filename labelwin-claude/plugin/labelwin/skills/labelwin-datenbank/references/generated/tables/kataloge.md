@@ -1,0 +1,73 @@
+# kataloge
+
+PK: katalog
+
+| Spalte | Typ | Null | Beschreibung |
+|---|---|---|---|
+| katalog | nvarchar(40) | NO |  |
+| katdateinr | int | NO |  |
+| kopieren | int | YES |  |
+| quelle | int | YES |  |
+| ziel | int | YES |  |
+| ek1erhalt | int | YES |  |
+| neuart | int | YES |  |
+| kurzform | int | YES |  |
+| sw2nehmen | int | YES |  |
+| allgemein | int | YES |  |
+| logbuch | int | YES |  |
+| swminlaen | int | YES |  |
+| vonart | nvarchar(15) | YES |  |
+| bisart | nvarchar(15) | YES |  |
+| warauswahl | int | YES |  |
+| minutennehmen | int | YES |  |
+| minutenfaktor | float | YES |  |
+| auslagerkz | nvarchar(1) | YES |  |
+| auslageruser | nvarchar(10) | YES |  |
+| auslagermaschine | nvarchar(20) | YES |  |
+| auslagerdatum | datetime | YES |  |
+| auslagerpfad | nvarchar(70) | YES |  |
+| auslagerdatei | nvarchar(50) | YES |  |
+| quellpfad | nvarchar(100) | YES |  |
+| zielpfad | nvarchar(100) | YES |  |
+| bestelladresse | int | YES |  |
+| onlineverbindung | nvarchar(50) | YES |  |
+| minutenfeld | int | YES |  |
+| waekz | int | YES |  |
+| uglservername | nvarchar(20) | YES |  |
+| uglusername | nvarchar(20) | YES |  |
+| uglpassword | nvarchar(20) | YES |  |
+| uglserverpfadoutbox | nvarchar(250) | YES |  |
+| uglserverpfadinbox | nvarchar(250) | YES |  |
+| uglkundennr | nvarchar(20) | YES |  |
+| mareonkz | int | YES |  |
+| donid | nvarchar(15) | YES |  |
+| doncustno | nvarchar(50) | YES |  |
+| donuser | nvarchar(50) | YES |  |
+| donpass | nvarchar(50) | YES |  |
+| donpfad | nvarchar(255) | YES |  |
+| textvorrang | int | YES |  |
+| minvorrang | int | YES |  |
+| anmerkung | ntext(1073741823) | YES |  |
+| niedrigstervkohneselber | int | YES |  |
+| artikelurl | nvarchar(250) | YES |  |
+| kdnr | nvarchar(10) | YES |  |
+| textauskata | int | YES |  |
+| mareonunr | nvarchar(20) | YES |  |
+| mareonsubunr | nvarchar(20) | YES |  |
+| mareonpn | nvarchar(10) | YES |  |
+| mareonletzteaenderung | datetime | YES |  |
+| ekmulti | float | YES |  |
+| zukunftsdatum | datetime | YES |  |
+| donkurzname | nvarchar(100) | YES |  |
+| herstkz | nvarchar(35) | YES |  |
+| difakat | int | YES |  |
+| splitstatus | nvarchar(5) | YES |  |
+| zeitstempel | timestamp | NO |  |
+| setkatalog | int | YES |  |
+| indexamende | int | YES |  |
+| loeschenleichen | int | YES |  |
+| preiseabdatum | datetime | YES |  |
+| preiseaushistorie | int | YES |  |
+| omdverhalten | nvarchar(50) | YES |  |
+| mareonfpaname | nvarchar(20) | YES |  |
+| optionen | ntext(1073741823) | YES |  |
