@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.bat text eol=crlf
+*.sql text eol=crlf
+*.txt text eol=crlf
+labelwin.env text eol=crlf
+*.zip binary
