@@ -1,0 +1,14 @@
+{
+  "name": "labelwin",
+  "version": "0.4.0",
+  "description": "Labelwin-ERP-Expertise für IT-Dienstleister im Handwerk: Datenbank-, Technik-, Business- und Anwendungskontext mit schreibgeschütztem MSSQL-Zugriff. Für beliebige Labelwin-Installationen konfigurierbar.",
+  "author": {
+    "name": "Luca Manco"
+  },
+  "keywords": [
+    "labelwin",
+    "erp",
+    "handwerk",
+    "mssql"
+  ]
+}
